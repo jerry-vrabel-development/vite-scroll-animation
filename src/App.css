@@ -64,3 +64,8 @@ header > .header__left {
 .nav-list {
   list-style-type: none;
 }
+.logo .active {
+  background: transparent;
+  color: none;
+  text-decoration: none;
+}

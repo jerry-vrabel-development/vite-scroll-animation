@@ -4,7 +4,7 @@ import  star from "../assets/chi6star.png";
 
 function Star() {
   return (
-    <motion.div
+    <motion.div className="logo"
     animate={{ opacity: 1, scale: .8, rotate: 360 }}
     transition={{
         duration: 3,
@@ -13,7 +13,7 @@ function Star() {
     initial={{ opacity: 0, scale: .1 }}
     whileHover={{ scale: .5 }}
     >
-      <NavLink to="/"><img src={star} className="logo" alt="Jerry Vrabel Development" /></NavLink>
+      <NavLink to="/"><img src={star} alt="Jerry Vrabel Development" /></NavLink>
     </motion.div>
   ); 
 }
