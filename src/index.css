@@ -1,0 +1,55 @@
+:root {
+  --primary-bg-color: rgb(102, 103, 171);
+  --secondary-bg-color: rgb(183, 184, 216);
+  --accent-color-1: rgb(245, 134, 97);
+  --accent-color-2: rgb(162, 183, 147);
+  --primary-text-color: rgb(220, 220, 220);
+  --secondary-text-color: rgb(50, 50, 50);
+  --border-color: rgb(220, 220, 220);
+  --error-state-color: rgb(220, 20, 60);
+  --success-state-color: rgb(80, 200, 120);
+  --warning-state-color: rgb(255, 191, 0);
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.secondary-background {
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
+}
+
+.button-primary {
+  background-color: var(--accent-color-1);
+  color: #fff;
+}
+
+.button-secondary {
+  background-color: var(--accent-color-2);
+  color: #fff;
+}
+
+.border-divider {
+  border-color: var(--border-color);
+}
+
+.alert-error {
+  background-color: var(--error-state-color);
+  color: #fff;
+}
+
+.alert-success {
+  background-color: var(--success-state-color);
+  color: #fff;
+}
+
+.alert-warning {
+  background-color: var(--warning-state-color);
+  color: #fff;
+}
+.active {
+  color: #007bff;
+  text-decoration: none;
+}

@@ -1,16 +1,18 @@
 import "../App.css";
-import { NavLink } from "react-router-dom";
+import Nav from "./Nav";
+import Star from "./Star";
 
 function Header() {
+ 
   return (
-    <div className="header">
-      <span>Header Component</span>
-      <ul>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="about">About</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-      </ul>
-    </div>
+    <header>
+      <div className="header">
+        <div className="header__left">
+          <Star />
+        </div>
+        <Nav />
+      </div>
+    </header>
   );
 }
 

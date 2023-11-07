@@ -7,15 +7,20 @@ body {
   box-sizing: border-box;
 }
 .header {
-  padding: 20px;
+  padding: 0 2rem;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  background: rgb(142, 160, 205);
+}
+header > .header__left {
+  width: 50%;
+  font-size: 1.5rem;
 }
 .header span {
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 
 .header ul {
@@ -32,19 +37,30 @@ body {
 
 .component {
   font-size: 30px;
-  height: 87vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .home {
-  background: rgb(214, 223, 135);
+  background: rgb(102, 103, 171);
+  color: rgb(220, 220, 220);
 }
 .about {
-  background: rgb(115, 139, 243);
+  background: rgb(183, 184, 216);
 }
 
 .contact {
-  background: palevioletred;
+  background: rgb(124,125,176);
+}
+.star {
+}
+.active {
+  color: #007bff;
+  background: rgb(167,168,205) ;
+  text-decoration: none;
+}
+.nav-list {
+  list-style-type: none;
 }
