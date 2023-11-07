@@ -1,4 +1,5 @@
 import "./App.css";
+import { useScrollToTop } from "./components/useScrollToTop";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Header from "./components/Header";
@@ -9,6 +10,7 @@ import Contact from "./components/Contact";
 function LocationProvider({ children }) {  return <AnimatePresence>{ children }</AnimatePresence>; }
 
 function RoutesWithAnimation() {
+  useScrollToTop();
   const location = useLocation();
 
   return (
@@ -19,8 +21,6 @@ function RoutesWithAnimation() {
     </Routes>
   );
 }
-
-
 
 function App() {
   return (
