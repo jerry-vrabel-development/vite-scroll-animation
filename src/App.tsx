@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 
+
 function LocationProvider({ children }) {  return <AnimatePresence>{ children }</AnimatePresence>; }
 
 function RoutesWithAnimation() {
