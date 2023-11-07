@@ -20,7 +20,7 @@ const menuItemVariants = {
 
 const Nav = () => {
   return (
-    <motion.ul initial="hidden" animate="visible">
+    <motion.ul initial="hidden" className="nav-list"animate="visible">
       {menuItems.map((item, index) => (
         <motion.li
           key={item.name}

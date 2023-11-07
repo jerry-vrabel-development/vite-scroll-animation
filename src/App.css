@@ -61,3 +61,6 @@ header > .header__left {
   background: rgb(167,168,205) ;
   text-decoration: none;
 }
+.nav-list {
+  list-style-type: none;
+}
