@@ -31,8 +31,8 @@ const Nav = () => {
         >
           <NavLink
             to={item.to}
-            activeClassName="active"
-            exact
+            className={({ isActive }) => isActive ? 'active' : undefined}
+            end
           >
             {item.name}
           </NavLink>
