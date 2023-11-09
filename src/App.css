@@ -64,3 +64,17 @@ header > .header__left {
 .nav-list {
   list-style-type: none;
 }
+.logo .active {
+  background: transparent;
+  color: none;
+  text-decoration: none;
+}
+.fadeDiv {
+  margin: 0;
+  width: 95vw;
+  font-size: 30pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-left: 1vw;
+}
